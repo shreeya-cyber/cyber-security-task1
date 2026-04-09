@@ -1,0 +1,23 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-04-09 20:23 +0530
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.011s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 04:68:74:8C:E5:D9 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for shreeeyaaaa.lan (192.168.31.30)
+Host is up (0.00095s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 71.89 seconds
